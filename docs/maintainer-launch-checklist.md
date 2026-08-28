@@ -6,8 +6,8 @@ record this checklist before the public launch announcement.
 
 ## Ownership and continuity
 
-- [ ] At least two active maintainers can administer `use-habitat/ht` and ship
-  an emergency release.
+- [ ] The owner can administer `wusterbuilds/habitat-cli`, and at least two
+  active maintainers can ship an emergency release.
 - [ ] Departed maintainers' organization, repository, Actions, DNS, package,
   and production access has been reviewed.
 - [ ] Release credentials, domain ownership, and recovery methods are stored in
@@ -17,8 +17,8 @@ record this checklist before the public launch announcement.
 
 ## GitHub settings
 
-- [ ] Give current maintainers admin access and make the `CODEOWNERS` entries
-  valid repository owners.
+- [ ] Give current maintainers write access and make the `CODEOWNERS` entries
+  valid repository owners. Keep personal-account ownership recovery current.
 - [ ] Protect `main` with a ruleset requiring pull requests, one approval,
   code-owner review for owned paths, conversation resolution, and current CI,
   CodeQL, Trivy, and dependency-review checks.
@@ -56,6 +56,6 @@ record this checklist before the public launch announcement.
 Verify a downloaded release after the hardened workflow ships:
 
 ```sh
-gh attestation verify ./ht-darwin-arm64 --repo use-habitat/ht
+gh attestation verify ./ht-darwin-arm64 --repo wusterbuilds/habitat-cli
 shasum -a 256 -c SHA256SUMS
 ```
