@@ -23,5 +23,5 @@ scope in public issues before implementation.
 - Better lineage and handoff interoperability across agent providers.
 - Stable protocol guarantees on the path to 1.0.
 
-Use [feature requests](https://github.com/use-habitat/ht/issues/new?template=feature_request.yml)
+Use [feature requests](https://github.com/wusterbuilds/habitat-cli/issues/new?template=feature_request.yml)
 to propose or discuss roadmap items.

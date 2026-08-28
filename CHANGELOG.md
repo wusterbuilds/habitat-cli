@@ -21,5 +21,5 @@ changes to ship in minor releases with migration guidance.
 - Local Codex and Claude Code capture, inspection, search, and optional Habitat
   Cloud synchronization.
 
-[Unreleased]: https://github.com/use-habitat/ht/compare/v0.4.7...HEAD
-[0.4.7]: https://github.com/use-habitat/ht/releases/tag/v0.4.7
+[Unreleased]: https://github.com/wusterbuilds/habitat-cli/compare/v0.4.7...HEAD
+[0.4.7]: https://github.com/wusterbuilds/habitat-cli/releases/tag/v0.4.7

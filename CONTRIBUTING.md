@@ -20,7 +20,7 @@ HT requires [Bun 1.3+](https://bun.sh/). A separate Node.js installation is not
 required.
 
 ```sh
-git clone https://github.com/use-habitat/ht.git
+git clone https://github.com/wusterbuilds/habitat-cli.git
 cd ht
 bun install --frozen-lockfile
 bun run check
