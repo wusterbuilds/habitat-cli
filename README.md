@@ -1,10 +1,10 @@
 # HT — local observability for coding agents
 
-[![CI](https://github.com/use-habitat/ht/actions/workflows/ci.yml/badge.svg)](https://github.com/use-habitat/ht/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/use-habitat/ht/actions/workflows/codeql.yml/badge.svg)](https://github.com/use-habitat/ht/actions/workflows/codeql.yml)
-[![Trivy](https://github.com/use-habitat/ht/actions/workflows/security.yml/badge.svg)](https://github.com/use-habitat/ht/actions/workflows/security.yml)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/use-habitat/ht/badge)](https://scorecard.dev/viewer/?uri=github.com/use-habitat/ht)
-[![Latest release](https://img.shields.io/github/v/release/use-habitat/ht)](https://github.com/use-habitat/ht/releases)
+[![CI](https://github.com/wusterbuilds/habitat-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/wusterbuilds/habitat-cli/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/wusterbuilds/habitat-cli/actions/workflows/codeql.yml/badge.svg)](https://github.com/wusterbuilds/habitat-cli/actions/workflows/codeql.yml)
+[![Trivy](https://github.com/wusterbuilds/habitat-cli/actions/workflows/security.yml/badge.svg)](https://github.com/wusterbuilds/habitat-cli/actions/workflows/security.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/wusterbuilds/habitat-cli/badge)](https://scorecard.dev/viewer/?uri=github.com/wusterbuilds/habitat-cli)
+[![Latest release](https://img.shields.io/github/v/release/wusterbuilds/habitat-cli)](https://github.com/wusterbuilds/habitat-cli/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 HT captures Codex and Claude Code sessions into a private local SQLite ledger
@@ -44,7 +44,7 @@ ht status
 The installer is a convenience wrapper around public GitHub release assets. It
 verifies the selected binary against the release's `SHA256SUMS` before
 activation. You can review [`install.sh`](install.sh) first or download an asset
-directly from [GitHub Releases](https://github.com/use-habitat/ht/releases).
+directly from [GitHub Releases](https://github.com/wusterbuilds/habitat-cli/releases).
 
 ## Connect Habitat Cloud
 
@@ -165,7 +165,7 @@ Prerequisite: [Bun 1.3+](https://bun.sh/). A separate Node.js installation is
 not required.
 
 ```sh
-git clone https://github.com/use-habitat/ht.git
+git clone https://github.com/wusterbuilds/habitat-cli.git
 cd ht
 bun install --frozen-lockfile
 bun run check
@@ -180,7 +180,7 @@ provenance attestations.
 ## Community and security
 
 - Start with [CONTRIBUTING.md](CONTRIBUTING.md).
-- Use the [issue chooser](https://github.com/use-habitat/ht/issues/new/choose)
+- Use the [issue chooser](https://github.com/wusterbuilds/habitat-cli/issues/new/choose)
   for bugs, provider changes, and feature proposals.
 - Follow [SECURITY.md](SECURITY.md) for private vulnerability reporting.
 - Read [SUPPORT.md](SUPPORT.md), [GOVERNANCE.md](GOVERNANCE.md), and

@@ -1,6 +1,6 @@
 # Support
 
-Use the [GitHub issue chooser](https://github.com/use-habitat/ht/issues/new/choose)
+Use the [GitHub issue chooser](https://github.com/wusterbuilds/habitat-cli/issues/new/choose)
 for reproducible bugs and scoped feature requests. Include your HT version,
 operating system, provider, minimal reproduction, and sanitized logs.
 

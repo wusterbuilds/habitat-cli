@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Use [GitHub private vulnerability reporting](https://github.com/use-habitat/ht/security/advisories/new).
+Use [GitHub private vulnerability reporting](https://github.com/wusterbuilds/habitat-cli/security/advisories/new).
 If that option is unavailable, email `hello@use-habitat.com` with the subject
 `HT security report` and request a secure follow-up channel.
 

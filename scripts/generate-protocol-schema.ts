@@ -8,7 +8,7 @@ const generated = allowUnknownObjectProperties(z.toJSONSchema(ingestBatchStructu
   io: "output"
 })) as Record<string, unknown>
 const schema = {
-  $id: "https://raw.githubusercontent.com/use-habitat/ht/main/protocol/ingest-v2.schema.json",
+  $id: "https://raw.githubusercontent.com/wusterbuilds/habitat-cli/main/protocol/ingest-v2.schema.json",
   title: "Habitat ingestion batch v2",
   description: "The public wire contract produced by HT for Habitat-compatible ingestion APIs.",
   ...generated,
