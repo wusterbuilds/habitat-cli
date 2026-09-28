@@ -16,7 +16,7 @@ history and hosted intelligence.
 A two-minute tour of team activity, semantic summaries, usage analytics, and
 shared MCP tools:
 
-HABITAT_DEMO_ATTACHMENT_URL
+https://github.com/user-attachments/assets/39031b71-7e12-4ec3-9834-698ba65db54c
 
 - **Local-first:** capture, inspect, and search without an account or network.
 - **Read-only providers:** HT never modifies Codex or Claude Code transcripts.
